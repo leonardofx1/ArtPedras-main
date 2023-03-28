@@ -1,0 +1,30 @@
+.rodape {
+    width: 100%;
+    min-height:80px;
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.477);
+    ul {
+        width: 100%;
+        display: flex;
+        gap: 50px;
+        height: 100%;
+        align-items: center;
+        li a{
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+    }
+
+    .icon__contatos {
+        width: 40px;
+        height: 40px;
+       
+    }
+    .endereco {
+        color:white;
+        font-size: 1.3rem;
+    }
+}
