@@ -16,7 +16,7 @@
     align-items: center;
     border-radius: 15px;
     line-height: 1.5rem;
-    background-color: cadetblue;
+    background-color: rgba(95, 158, 160, 0.552);
     h3 {
         color:white;
         font-size: 2rem;
@@ -27,4 +27,18 @@
 .propraganda {
     width: 800px;
     margin: 0 auto;
+}
+
+.whats__fixed, .insta__fixed {
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    right: 0;
+    top: 50%;
+    &:hover {
+        cursor:pointer;
+    }
+}
+.insta__fixed{
+    top: 60%;
 }

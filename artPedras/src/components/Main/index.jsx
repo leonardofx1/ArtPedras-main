@@ -5,6 +5,9 @@ import projetos from '../../assets/style/projetos.scss'
 
 import granito from '../../assets/img/granito.webp';
 import paraVoce from '../../assets/img/paraVoce.webp';
+import whats from '../../assets/img/whats.png';
+import insta from '../../assets/img/insta.png'
+
 const Main = () => {
 
     return (
@@ -29,6 +32,8 @@ const Main = () => {
                     forma possível.
                 </p>
             </article>
+            <img src={whats} alt="rede-social-whatsapp" className='whats__fixed' />
+            <img src={insta} alt="rede social instagram"  className='insta__fixed'/>
         </section>
         <div className="container__projetos">
             <h2>Projetos</h2>
