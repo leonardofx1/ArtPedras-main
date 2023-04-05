@@ -6,20 +6,23 @@
     margin:0 auto;
     padding: .3rem;
     h2 {
+        width: auto;
+        display: inline-block;
         font-weight: bold;
         font-size: 2.5rem;
         color: #2a363b;
+        border-bottom: 3px solid #2a363b;
+        margin: 1.5rem 0;
     }
 }
 
 .projetos {
     display: flex;
-    width: 940px;
+    width: 90%;
     min-width: auto;
     margin: 0 auto;
     justify-content: space-evenly;
     padding: .5rem;
-    background-color: red;
     height: auto;
     flex-wrap: wrap;
     gap: 5px;
