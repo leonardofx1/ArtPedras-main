@@ -1,18 +1,28 @@
 .container__projetos {
     text-align: center;
-    background-color: #5555559b;
+    background-color: rgba(255, 255, 255, 0.688);
     width:95%;
+    height: auto;
     margin:0 auto;
     padding: .3rem;
     h2 {
-        color: white;
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: #2a363b;
     }
 }
 
 .projetos {
     display: flex;
-    justify-content: space-between;
-    padding: 1rem;
+    width: 940px;
+    min-width: auto;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding: .5rem;
+    background-color: red;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 5px;
     .projeto__corpo {
         width:calc( 97% /3 );
         background-color: white;
@@ -24,50 +34,19 @@
     }
 }
 
-@keyframes granito {
-    0% {
-        opacity: 0;
-    };
-    50% {
-        opacity: .5;
-    };
-    100%{opacity: 1;}
-    
-}
-.projeto {
-    width:400px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    border-radius: 15px;
-    align-items: center;
-    position: relative;
-    transition: all 2s linear 2s;
-    cursor: all-scroll;
-    &:hover::after {
 
-        content: 'granito';
-      
-        background-color: rgba(0, 0, 0, 0.263);
-        animation: granito 1s linear 1;
-      
-        transition: all 5s;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        font-weight: bold;
-        font-size: 2rem;
-        color: white;
-        width: 400px;
-        height: 100%;
-        border-radius: 15px;
- 
-   
-    }
+.projeto {
+    width: 290px;
+    height: auto;
+    background-color: rgba(168, 15, 251, 0.37);
+    display: flex;
+    border-radius: 15px;
     img {
-        width: 100%;
-        height: 100%;
+        width:100%;
         border-radius: 15px;
+        transition: all ease-in-out 800ms;
+        &:hover {
+            cursor: pointer;
+        }
     }
 }

@@ -46,17 +46,12 @@ const Main = () => {
                     <img src={granito} alt="granito"/>
                 </article>
 
-
-                <article className="projeto__corpo">
+                <article className="projeto">
                     <img src={granito} alt="granito"/>
-                    <h3>Granito</h3>
-                    <div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Voluptas dolores voluptates esse tempore ex ea ratione
-                        dolorum quas voluptatum, commodi, officia cum, quo
-                        nostrum soluta nisi quam natus porro fugit.
-                    </div>
+                </article> <article className="projeto">
+                    <img src={granito} alt="granito"/>
                 </article>
+              
             </section>
         </div>
         <section className="propraganda">

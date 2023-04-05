@@ -1,5 +1,6 @@
 import React from 'react';
 
+import {CiLocationOn} from 'react-icons/ci'
 import rodape from '../../assets/style/rodape.scss'
 
 import whats from  '../../assets/img/whats.png';
@@ -23,9 +24,7 @@ const Footer = () => {
                 Instagram</a>
             </li>
             <li class="endereco">
-                <span class="material-symbols-outlined">
-                    location_on
-                </span>
+                <CiLocationOn/>
                 AV SANTOS LOPES - N° 833 - IRECÊ</li>
         </ul>
 
